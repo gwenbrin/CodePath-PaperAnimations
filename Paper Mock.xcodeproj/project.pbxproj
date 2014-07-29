@@ -19,6 +19,8 @@
 		529B51AB1957E38800817767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529B51931957E38800817767 /* UIKit.framework */; };
 		529B51B31957E38800817767 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 529B51B11957E38800817767 /* InfoPlist.strings */; };
 		529B51B51957E38800817767 /* Paper_MockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529B51B41957E38800817767 /* Paper_MockTests.m */; };
+		529B51C11957E52800817767 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529B51BF1957E52800817767 /* FeedViewController.m */; };
+		529B51C21957E52800817767 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529B51C01957E52800817767 /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		529B51B01957E38800817767 /* Paper MockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paper MockTests-Info.plist"; sourceTree = "<group>"; };
 		529B51B21957E38800817767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		529B51B41957E38800817767 /* Paper_MockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paper_MockTests.m; sourceTree = "<group>"; };
+		529B51BE1957E52800817767 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		529B51BF1957E52800817767 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		529B51C01957E52800817767 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				529B519E1957E38800817767 /* AppDelegate.h */,
 				529B519F1957E38800817767 /* AppDelegate.m */,
 				529B51A11957E38800817767 /* Images.xcassets */,
+				529B51BE1957E52800817767 /* FeedViewController.h */,
+				529B51BF1957E52800817767 /* FeedViewController.m */,
+				529B51C01957E52800817767 /* FeedViewController.xib */,
 				529B51961957E38800817767 /* Supporting Files */,
 			);
 			path = "Paper Mock";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529B519A1957E38800817767 /* InfoPlist.strings in Resources */,
+				529B51C21957E52800817767 /* FeedViewController.xib in Resources */,
 				529B51A21957E38800817767 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529B51A01957E38800817767 /* AppDelegate.m in Sources */,
+				529B51C11957E52800817767 /* FeedViewController.m in Sources */,
 				529B519C1957E38800817767 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

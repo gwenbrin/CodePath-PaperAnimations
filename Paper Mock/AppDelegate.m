@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FeedViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    self.window.rootViewController = feedViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

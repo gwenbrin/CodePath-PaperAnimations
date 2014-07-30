@@ -13,7 +13,6 @@
 @property UIView *feedView;
 @property (assign, nonatomic) CGPoint offsetFromCenter;
 
-]
 @end
 
 @implementation FeedViewController
